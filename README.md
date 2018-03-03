@@ -96,6 +96,12 @@ To disable the reveal component, just unbind it
 reveal.unbind()
 ```
 
+## Notes
+
+This librabry uses `ViewAnimationUtils.createCircularReveal` under the hood, which is available from **Lollipop**.
+
+Versions **before Lollipop** will not use any animation but still look pretty good.
+
 ## License
 
 ```
