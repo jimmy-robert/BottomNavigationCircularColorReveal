@@ -5,7 +5,18 @@ This library does not implement its own BottomNavigationView but uses the one fr
 
 ## Installation
 
-TODO
+```gradle
+dependencies {
+
+    // Declare the design package of Android Support Library to include the BottomNavigationView
+    implementation "com.android.support:design:${ANDROID_SUPPORT_LIBRARY_VERSION}"
+    
+    // Declare the 'BottomNavigationCircularColorReveal' component
+    // TODO Publish to jcenter
+    // implementation "re.robz.android:bottom-navigation-circular-color-reveal:1.0"
+    
+}
+```
 
 ## Usage
 
