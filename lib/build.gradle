@@ -9,8 +9,8 @@ android {
         minSdkVersion 14
         targetSdkVersion 27
 
-        versionCode 1
-        versionName "1.0"
+        versionCode 100
+        versionName "0.1.0"
     }
 
     buildTypes {
@@ -25,3 +25,32 @@ dependencies {
     implementation libs.kotlin
     compileOnly libs.design
 }
+
+ext {
+    def name = "bottom-navigation-circular-color-reveal"
+
+    bintrayRepo = 'maven'
+    bintrayName = name
+
+    publishedGroupId = 're.robz.android'
+    libraryName = name
+    artifact = name
+
+    libraryDescription = "Build a BottomNavigationView with a circular color reveal animation like in Material Design guidelines demos."
+
+    siteUrl = 'https://github.com/JimmyRobz/BottomNavigationCircularColorReveal'
+    gitUrl = 'https://github.com/JimmyRobz/BottomNavigationCircularColorReveal.git'
+
+    libraryVersion = "0.1.0"
+
+    developerId = 'jimmyrobz'
+    developerName = 'Jimmy Robz'
+    developerEmail = 'jimmy@robz.re'
+
+    licenseName = 'MIT License'
+    licenseUrl = 'https://opensource.org/licenses/MIT'
+    allLicenses = ["MIT"]
+}
+
+apply from: project.rootProject.file('install.gradle')
+apply from: project.rootProject.file('bintray.gradle')

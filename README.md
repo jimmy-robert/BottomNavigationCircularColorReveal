@@ -12,8 +12,7 @@ dependencies {
     implementation "com.android.support:design:${ANDROID_SUPPORT_LIBRARY_VERSION}"
     
     // Declare the 'BottomNavigationCircularColorReveal' component
-    // TODO Publish to jcenter
-    // implementation "re.robz.android:bottom-navigation-circular-color-reveal:1.0"
+    implementation "re.robz.android:bottom-navigation-circular-color-reveal:0.1.0"
     
 }
 ```
