@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Drawable for menu item background pre-Lollipop -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Checked state:  circle white 12% -->
+    <item android:state_pressed="true" android:state_checked="false" android:drawable="@drawable/oval_white_12"/>
+    <!-- Default state: transparent-->
+    <item android:drawable="@android:color/transparent"/>
+</selector>

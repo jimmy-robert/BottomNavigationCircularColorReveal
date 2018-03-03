@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Simple circle white 12%-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+
+    <!-- Color: white 12% -->
+    <solid android:color="@color/white_12"/>
+
+</shape>

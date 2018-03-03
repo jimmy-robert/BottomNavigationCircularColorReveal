@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- White colorsv-->
+    <color name="white">#FFFFFF</color>
+    <color name="white_12">#1EFFFFFF</color>
+    <color name="white_30">#4CFFFFFF</color>
+    <color name="white_70">#B2FFFFFF</color>
+
+    <!-- Fake transparent (medium gray with ALMOST 0 in alpha channel) -->
+    <color name="fake_transparent">#017A7A7A</color>
+
+    <!-- Color for system bars (status bar and navigation bar) -->
+    <color name="system_bars_color">#33000000</color>
+
+    <!-- Menu colors based oncolors from Material Design Guidelines -->
+    <array name="menu_colors">
+        <item>#445A65</item>
+        <item>#00796B</item>
+        <item>#8C6E62</item>
+        <item>#6E4C42</item>
+    </array>
+
+</resources>

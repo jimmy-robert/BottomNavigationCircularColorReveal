@@ -1,0 +1,11 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Color Reveal</string>
+
+    <!-- Menu -->
+    <string name="menu_videos">Movies &amp; TV</string>
+    <string name="menu_music">Music</string>
+    <string name="menu_books">Book</string>
+    <string name="menu_newspaper">Newspaper</string>
+
+</resources>

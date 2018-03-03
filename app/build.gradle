@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        applicationId "re.robz.bottomnavigation.coloranim.sample"
+
+        minSdkVersion 14
+        targetSdkVersion 27
+
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation libs.kotlin
+    implementation libs.design
+
+    implementation project(':lib')
+}
