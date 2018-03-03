@@ -3,6 +3,18 @@ Build a BottomNavigationView with a circular color reveal animation like in Mate
 
 This library does not implement its own BottomNavigationView but uses the one from the Android Support Library.
 
+Check **Material Design Guidelines** to see details about [Bottom Navigation](https://material.io/guidelines/components/bottom-navigation.html).
+
+## Demo
+
+### Google version from Material Design Guidelines
+
+![Google](https://raw.githubusercontent.com/JimmyRobz/BottomNavigationCircularColorReveal/master/gifs/google.gif "Google version from Material Design Guidelines")
+
+### This library version
+
+![Me](https://raw.githubusercontent.com/JimmyRobz/BottomNavigationCircularColorReveal/master/gifs/library.gif "This library version")
+
 ## Installation
 
 ```gradle
