@@ -6,7 +6,7 @@ android {
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "re.robz.bottomnavigation.coloranim.sample"
+        applicationId "re.robz.bottomnavigation.circularcolorreveal.sample"
 
         minSdkVersion 14
         targetSdkVersion 27

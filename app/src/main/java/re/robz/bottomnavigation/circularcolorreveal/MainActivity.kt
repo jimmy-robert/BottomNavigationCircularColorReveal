@@ -1,4 +1,4 @@
-package re.robz.bottomnavigationview.colorhelper
+package re.robz.bottomnavigation.circularcolorreveal
 
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
@@ -6,7 +6,6 @@ import android.support.v4.view.ViewCompat
 import android.support.v7.app.AppCompatActivity
 import android.view.Gravity
 import android.widget.FrameLayout
-import re.robz.bottomnavigation.circularcolorreveal.BottomNavigationCircularColorReveal
 
 /**
  * Sample main activity.

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="re.robz.bottomnavigationview.colorhelper.MainActivity">
+    tools:context="re.robz.bottomnavigation.circularcolorreveal.MainActivity">
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottom_navigation"
