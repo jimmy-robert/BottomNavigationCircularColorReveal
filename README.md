@@ -1,4 +1,7 @@
 # BottomNavigationCircularColorReveal
+
+![Bintray](https://img.shields.io/bintray/v/jimmyrobz/maven/bottom-navigation-circular-color-reveal.svg)
+
 Build a BottomNavigationView with a circular color reveal animation like in Material Design guidelines demos.
 
 This library does not implement its own BottomNavigationView but uses the one from the Android Support Library.
@@ -24,7 +27,7 @@ dependencies {
     implementation "com.android.support:design:${ANDROID_SUPPORT_LIBRARY_VERSION}"
     
     // Declare the 'BottomNavigationCircularColorReveal' component
-    implementation "re.robz.android:bottom-navigation-circular-color-reveal:0.1.0"
+    implementation "re.robz.android:bottom-navigation-circular-color-reveal:1.0.0"
     
 }
 ```
