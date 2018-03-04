@@ -1,5 +1,8 @@
-apply plugin: 'com.android.library'
+// Define lib name and version
+def libName = 'bottom-navigation-circular-color-reveal'
+def libVersion = '1.0.0'
 
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
@@ -8,9 +11,6 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 27
-
-        versionCode 100
-        versionName "0.1.0"
     }
 
     buildTypes {
@@ -26,22 +26,24 @@ dependencies {
     compileOnly libs.design
 }
 
-ext {
-    def name = "bottom-navigation-circular-color-reveal"
+// N.B: Do not forget to set archives base name too
+archivesBaseName = libName
 
+// Prepare publication tasks
+ext {
     bintrayRepo = 'maven'
-    bintrayName = name
+    bintrayName = libName
 
     publishedGroupId = 're.robz.android'
-    libraryName = name
-    artifact = name
+    libraryName = libName
+    artifact = libName
 
     libraryDescription = "Build a BottomNavigationView with a circular color reveal animation like in Material Design guidelines demos."
 
     siteUrl = 'https://github.com/JimmyRobz/BottomNavigationCircularColorReveal'
     gitUrl = 'https://github.com/JimmyRobz/BottomNavigationCircularColorReveal.git'
 
-    libraryVersion = "0.1.0"
+    libraryVersion = libVersion
 
     developerId = 'jimmyrobz'
     developerName = 'Jimmy Robz'
@@ -52,5 +54,5 @@ ext {
     allLicenses = ["MIT"]
 }
 
-apply from: project.rootProject.file('install.gradle')
-apply from: project.rootProject.file('bintray.gradle')
+apply from: rootProject.file('install.gradle')
+apply from: rootProject.file('bintray.gradle')

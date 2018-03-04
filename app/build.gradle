@@ -27,5 +27,5 @@ dependencies {
     implementation libs.kotlin
     implementation libs.design
 
-    implementation project(':lib')
+    implementation 're.robz.android:bottom-navigation-circular-color-reveal:1.0.0'
 }
