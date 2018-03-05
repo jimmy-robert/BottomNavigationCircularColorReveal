@@ -1,6 +1,6 @@
 # BottomNavigationCircularColorReveal
 
-![Bintray](https://img.shields.io/bintray/v/jimmyrobz/maven/bottom-navigation-circular-color-reveal.svg)
+[![Bintray](https://api.bintray.com/packages/jimmyrobz/maven/bottom-navigation-circular-color-reveal/images/download.svg)](https://bintray.com/jimmyrobz/maven/bottom-navigation-circular-color-reveal/_latestVersion)
 
 Build a BottomNavigationView with a circular color reveal animation like in Material Design guidelines demos.
 
